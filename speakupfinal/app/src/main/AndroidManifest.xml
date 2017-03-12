@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.afreen.speakupfinal">
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="15">
+
+    </uses-sdk>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ty"
+
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            >
+        </activity>
+        <activity
+            android:name=".fbupload"
+            >
+        </activity>
+        <activity android:name=".facebook"/>
+        <activity
+            android:name=".ThirdActivity"
+            >
+        </activity>
+        <activity
+            android:name=".theactivity"
+            >
+        </activity>
+        <activity
+            android:name=".ph"
+            >
+
+        </activity>
+        <activity
+            android:name=".ph2"
+            />
+        <activity
+            android:name=".add_post"
+            >
+
+        </activity>
+        <activity
+            android:name=".commnt1"/>
+
+        <activity
+            android:name=".AndroidFacebookActivity"
+            >
+        </activity>
+        <activity
+            android:name=".selection">
+
+
+        </activity>
+        <activity android:name=".Login2"/>
+        <activity android:name=".add_post1"/>
+        <activity
+            android:name=".contact">
+
+
+        </activity>
+
+
+        <activity
+            android:name=".other_comment">
+
+
+        </activity>
+
+        <activity
+            android:name=".commnt2">
+
+
+        </activity>
+
+        <activity
+            android:name=".pie">
+
+
+        </activity>
+        <activity
+            android:name=".pie1">
+
+
+        </activity>
+
+
+
+
+        <activity android:name=".mygrp">
+
+        </activity>
+        <activity android:name=".seju">
+
+        </activity>
+        <activity android:name=".viewgrp">
+
+        </activity>
+        <activity android:name=".kk">
+
+        </activity>
+
+        <activity android:name=".news">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity"
+             >
+        </activity>
+        <activity
+            android:name=".mygrp1"
+            >
+        </activity>
+        <activity
+            android:name=".seju1"
+            >
+        </activity>
+        <activity
+            android:name=".viewgrp1"
+            >
+        </activity>
+        <activity
+            android:name=".kk3"
+            >
+        </activity>
+        <activity
+            android:name=".ChooserActivity">
+
+        </activity>
+
+        <activity
+            android:name=".SignInActivity"
+        >
+        </activity>
+        <activity
+            android:name=".SignInActivityWithDrive"
+           >
+        </activity>
+        <activity
+            android:name=".IdTokenActivity"
+            >
+        </activity>
+
+        <activity
+            android:name=".ServerAuthCodeActivity"
+            >
+        </activity>
+        <activity android:name="com.example.afreen.speakupfinal.TwitterAuthenticationActivity">
+
+        </activity>
+
+
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="30996a9261c908734d3195b94cc7bd5c985189aa" />
+        <activity android:name=".twitter_main"/>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1610140195956689"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true">
+        </provider>
+        <service android:name=".MyFirebasenstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMesagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#696969">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tt" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_circular_border_imageview" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/notify"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="340dp"
+            android:background="@drawable/profile_circular_border_imageview"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_circular_border_imageview"
+            android:textAlignment="center"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="340dp"
+            android:elevation="5dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/notif"
+            android:text="10"
+            android:visibility="invisible"/>
+        <Button
+            android:textSize="10sp"
+            android:id="@+id/buttonLoadPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="260dp"
+            android:text="Choose pic"
+            android:layout_gravity="center">
+
+        </Button>
+        <Button
+
+
+            android:id="@+id/CameraPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="10sp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="260dp"
+            android:text="Upload"
+            android:layout_gravity="center">
+
+        </Button>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="310dp"
+            android:text="NAME"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/res"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="HOT"
+            android:textSize="14sp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/ppo"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+          />
+        <ImageButton
+            android:id="@+id/res1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="HOT"
+            android:textSize="14sp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/kk1"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:padding="20dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="310dp"
+            android:src="@drawable/bell"/>
+
+        <TextView
+            android:id="@+id/listResult"
+            android:layout_width="wrap_content"
+            android:text="address"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_profile_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="340dp"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/com"
+                android:layout_marginTop="500dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#d8bfd8"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="COMMENT" />
+
+            <Button
+                android:id="@+id/ne"
+                android:layout_marginTop="100dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#d8bfd8"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="NEWS" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#d8bfd8"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:id="@+id/add"
+                android:padding="20dp"
+                android:text="ADD POST" />
+
+            <Button
+                android:id="@+id/grp1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#d8bfd8"
+                android:clickable="true"
+
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="MAKE GROUP" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/fb1"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:background="#d8bfd8"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="POST VIA FACEBOOK" />
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#d8bfd8"
+                android:id="@+id/logout"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="LOGOUT" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

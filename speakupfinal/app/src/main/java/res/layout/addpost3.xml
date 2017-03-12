@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="60dp"
+            android:id="@+id/dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem*"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/problem"
+            android:background="#f2e2cd"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL*"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#f2e2cd"
+            android:layout_marginTop="280dp"
+            android:id="@+id/email"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/camera"
+            android:layout_marginLeft="270dp"
+            android:onClick="camera"
+            android:layout_marginTop="190dp"
+            android:id="@+id/camera"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/video"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="190dp"
+            android:onClick="video"
+            android:id="@+id/video"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tag the people:"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Select name:"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/sel_name"/>
+
+        <com.example.afreen.speakupfinal.ChipsMultiAutoCompleteTextview
+            android:id="@+id/multiAutoCompleteTextView1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:background="@drawable/mytext2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="430dp"
+            android:ems="10"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/edtTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="2dp"
+            android:padding="8dp"
+            android:shadowColor="#FFFFFF"
+            android:shadowDy="1"/>
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="490dp"
+            android:text="Submit"
+            android:id="@+id/submit"/>
+    </RelativeLayout>
+</ScrollView>

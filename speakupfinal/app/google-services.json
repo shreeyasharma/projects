@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "732778023060",
+    "firebase_url": "https://speak-up-965c9.firebaseio.com",
+    "project_id": "speak-up-965c9",
+    "storage_bucket": "speak-up-965c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732778023060:android:31c3dd6fe0a1b96f",
+        "android_client_info": {
+          "package_name": "com.example.afreen.speakupfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732778023060-s7r6912si1kq01rlrkouoaoiffggls3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzBU4K44zQIT07mjePy0-WC6g292PqSCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
