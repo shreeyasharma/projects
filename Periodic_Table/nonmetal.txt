@@ -1,0 +1,23 @@
+H 1 01 S 01 Hydrogen
+
+He 2 04 P 18 Helium
+
+C 6 12 P 14 Carbon
+
+N 7 14 P 15 Nitrogen
+
+P 15 31 P 15 Phosphorus
+
+O 8  16 P 16 Oxygen
+
+S 16 32 P 16 Sulfur
+
+Se 34 79 P 16 Selenium
+
+F 9 19 P 17 Flourine
+
+Cl 17 35.5 P 17 Chlorine
+  
+Br 35 80 P 17 Bromine
+
+I 53 127 P 17 Iodine

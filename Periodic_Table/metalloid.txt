@@ -1,0 +1,15 @@
+Boron B 5 11 P 13
+
+Silicon Si 14 28 P 14
+
+Germanium Ge 32 72 P 14
+
+Arsenic As 33 75 P 15
+
+Antimony Sb 51 122 P 15
+
+Tellurium Te 52 127 P 16
+
+Polonium Po 84 209 P 16
+
+Astatine At 85 210 P 17

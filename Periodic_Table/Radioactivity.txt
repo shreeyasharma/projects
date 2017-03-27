@@ -1,0 +1,77 @@
+Technitium 43 Yes
+
+Promethium 61 Yes
+
+Polonium 84 Yes
+
+Astatine 85 Yes
+
+Radon 86 Yes
+
+Francium 87 Yes
+
+Radium 88 Yes
+
+Actinium 89 Yes
+
+Thorium 90 Yes
+
+Protactinium 91 Yes
+
+Uranium 92 Yes
+
+Neptunium 93 Yes
+
+Plutonium 94 Yes
+
+Americium 95 Yes
+
+Curium 96 Yes
+
+Berkelium 97 Yes
+
+Californium 98 Yes
+
+Einsteinium 99 Yes
+
+Fermium 100 Yes
+
+Mendelevium 101 Yes
+
+Nobelium 102 Yes
+
+Lawrencium 103 Yes
+
+Rutherfordium 104 Yes
+
+Dubnium 105 Yes
+
+Seaborgium 106 Yes
+
+Bohrium 107 Yes
+
+Hassium 108 Yes
+
+Meitnerium 109 Yes
+
+Dermstadium 110 Yes
+
+Roentgenium 111 Yes
+
+Copernicium 112 Yes
+
+Ununtrium 113 Yes
+
+Ununquadium 114 Yes
+
+Ununpentium 115 Yes
+
+Ununhexium 116 Yes
+
+Ununseptium 117 Yes
+
+Ununoctium 118 Yes
+
+  
+
+
